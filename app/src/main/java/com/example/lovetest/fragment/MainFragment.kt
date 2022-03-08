@@ -23,7 +23,7 @@ import com.example.lovetest.databinding.FragmentMainBinding
 class MainFragment : Fragment() {
 
     lateinit var navController: NavController
-    lateinit var binding: FragmentMainBinding
+    private lateinit var binding: FragmentMainBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
